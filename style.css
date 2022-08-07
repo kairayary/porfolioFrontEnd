@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background: #c99a8e;
+}
+
+.main {
+  margin: 0 auto;
+
+  /* margin-left: 10%; */
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 10em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.info-content span {
+  color: #dda00d;
+
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: #737a48;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 3px 11px -5px rg#737a48;
+  -moz-box-shadow: 1px 3px 11px -5px #737a48;
+  box-shadow: 1px 3px 11px -5px #737a48;
+}
+
+.download-cv:hover {
+  background-color: azure;
+  box-shadow: none;
+}
+
+.main img {
+
+  border: 6px solid #737a48;
+  width: 350px;
+  height: 100%;
+  z-index: 1;
+}
+
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100%;
+  align-items: center;
+  background-color: #c99a8e;
+}
+
+.about img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 10%;
+  border: 6px solid #dda00d;
+  width: 70%;
+  grid-column: 1/5;
+}
+
+.about-info {
+
+  grid-column: 5/10;
+  padding: 3.5em;
+}
+
+.about-info h1 {
+  font-size: 2.5em;
+  color: #737a48;
+  /* text-shadow: 1em #737a48; */
+  font-weight: 600;
+  /* -webkit-text-fill-color: #dda00d;
+-webkit-text-stroke: 0.5px #737a48; */
+  letter-spacing: 0;
+  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
+
+
+}
+
+.about-info p {
+  color: white;
+}
+
+.experience .experience-content{
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-experience {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.info-experience h1 {
+  margin-top: 2em;
+  margin-left: 10%;
+  font-size: 2.5em;
+  color: #737a48;
+
+  font-weight: 600;
+
+  letter-spacing: 0;
+  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
+
+
+}
+
+/* .experience{
+  width: 100vw;
+  background-color: #191c32;
+  color: #fff;
+} */
