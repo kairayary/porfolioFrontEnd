@@ -3,30 +3,31 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
+.navbar, .main-about, .main-education, .main-hard-skills {
   background: #c99a8e;
 }
 
-.main {
-  margin: 0 auto;
-
-  /* margin-left: 10%; */
-  width: 80vw;
-  height: 80vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 10em;
+.main-banner, .main-about, .main-experience, .main-education, .main-soft-skills, .main-hard-skills {
+  text-align: center;
+  min-height: calc(81vh - 97px);
+  padding: 2em;
 }
 
-h1 {
+.info-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-banner h1 {
   font-size: 3em;
   font-weight: 600;
 }
@@ -53,88 +54,124 @@ h1 {
   box-shadow: none;
 }
 
-.main img {
-
+.info-img, .img-about {
+  
+  box-shadow: 15px 15px 40px #c99a8e;
   border: 6px solid #737a48;
-  width: 350px;
-  height: 100%;
-  z-index: 1;
+  width: 28%;
 }
 
 
-.about {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  width: 100%;
+.about-info{
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  background-color: #c99a8e;
-}
+  justify-content: space-around;
+  padding: 2em;
+  margin-left: 1em;
 
-.about img {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: 10%;
-  border: 6px solid #dda00d;
-  width: 70%;
-  grid-column: 1/5;
-}
-
-.about-info {
-
-  grid-column: 5/10;
-  padding: 3.5em;
 }
 
 .about-info h1 {
   font-size: 2.5em;
   color: #737a48;
-  /* text-shadow: 1em #737a48; */
+  text-align: center;
   font-weight: 600;
-  /* -webkit-text-fill-color: #dda00d;
--webkit-text-stroke: 0.5px #737a48; */
+  -webkit-text-stroke: 0.5px #737a48;
   letter-spacing: 0;
   text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
 
 
 }
 
-.about-info p {
+.aboutb {
+  background-color: #737a48;
   color: white;
 }
 
-.experience .experience-content{
-  width: 80vw;
-  height: 80vh;
-  margin: 0 auto;
+.paragraph-about p {
+  margin-left: 3em;
+  color: white;
+  text-align: justify;
+  margin-right: 2em;
+}
+
+.experience-content,.soft-content progress,
+.hard-content progress {
+  min-height: calc(80vh - 97px);
+  margin-left: 3em;
+  margin-right: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.info-experience {
-  width: 100vw;
+.info-titulo h1 {
+  text-align: center;
+  /* margin-top: 1em; */
+  font-size: 2.5em;
+  color: #737a48;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
+}
+
+.card-experience {
+  border: 3px solid #737a48;
+  box-shadow: 10px 10px 25px #c99a8e
+}
+
+.card-title {
+  color: #dda00d;
+  font-weight: bold;
+
+}
+
+.content {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 
 }
 
-.info-experience h1 {
-  margin-top: 2em;
+.content p {
+  align-self: center;
+}
+.courses{
+  display: flex;
+}
+.info-courses h2 {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
   margin-left: 10%;
-  font-size: 2.5em;
-  color: #737a48;
-
-  font-weight: 600;
-
-  letter-spacing: 0;
+  padding-top: 4%;
+  margin-bottom: 4%;
   text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
-
-
 }
 
-/* .experience{
-  width: 100vw;
-  background-color: #191c32;
-  color: #fff;
-} */
+.courses-cards{
+  min-height: calc(80vh - 97px);
+  margin-left: 3em;
+  margin-right: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.card-courses {
+  border: 3px solid #dda00d;
+  box-shadow: 8px 8px 15px #737a48;
+}
+.soft-content p{
+  
+  font-size: 17px;
+  font-weight: bold;
+}
+.soft-content,.hard-content{
+  margin-top: 3%;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.barra{
+  background-color: #dda00d;
+}
