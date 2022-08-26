@@ -14,7 +14,7 @@ body {
   background: #c99a8e;
 }
 
-.main-banner, .main-about, .main-experience, .main-education, .main-soft-skills, .main-hard-skills {
+.main-banner, .main-about, .main-experience, .main-education, .main-soft-skills, .main-hard-skills, .main-projects {
   text-align: center;
   min-height: calc(81vh - 97px);
   padding: 2em;
@@ -97,7 +97,7 @@ body {
 }
 
 .experience-content,.soft-content progress,
-.hard-content progress {
+.hard-content progress,.projects-content {
   min-height: calc(80vh - 97px);
   margin-left: 3em;
   margin-right: 2em;
@@ -116,7 +116,7 @@ body {
   text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
 }
 
-.card-experience {
+.card-experience, .card-projects {
   border: 3px solid #737a48;
   box-shadow: 10px 10px 25px #c99a8e
 }
