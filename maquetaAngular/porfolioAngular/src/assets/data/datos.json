@@ -1,0 +1,125 @@
+{
+    "nombre":"Kaira Abréu",
+    "titulo":"DESARROLLADOR FULL STACK Jr",
+    "img":"https://ibb.co/kyQVwjs",
+    "información":{
+        "acerca":"Profesional en Ingeniería Mecánica, motivada por la capacidad de interpretación y la curiosidad por el mundo IT, me inicie en la formación, aprendizaje y adquisición de conocimiento para el desarrollo de aplicaciones Web, con las herramientas básicas de programación. Soy una persona con actitud positiva, disponibilidad inmediata, ganas de aprender y a la vez aportar los conocimientos que poseo. Soy comunicativa, dinámica y con facilidad de adaptación. Me considero con capacidad de liderazgo, organización y de trabajo en equipo, con iniciativa de resolver problemas eficientemente y lograr las metas y objetivos trazados.",
+        "img":"https://ibb.co/ZGkSXbs"
+    },
+    "experiencia":[ 
+        {
+            "titulo":"Atención al Cliente",
+            "descripción":"Atención al Cliente y Proveedores. Cajera. Apertura y Cierre de caja.",
+            "img":"https://ibb.co/xfyHxrm"
+        },
+        {
+            "titulo":"Analista de Gestión e Implementación",
+            "descripción":"Establecer estrategias para adecuar el manejo de gas en unidad K8 de Planta Compresora La Ceibita.",
+            "img":"https://ibb.co/VgbJNf4"
+        },
+        {
+            "titulo":"Asistente de Proyectos",
+            "descripción":"Apoyo directo en el diseño, planeación, dirección y gestión para la instalación del Separador de Gotas del Gas Tope Combustible.",
+            "img":"https://ibb.co/RbK9vk4"
+        }
+    ],
+    "educación":{
+        "instituto":"Universidad Experimental Politécnica Antonio Jóse de Sucre Vice-Rectorado de Puerto Ordaz. Estado Bolivar. Venezuela",
+        "titulo":"Ingeniero Mecánico",
+        "img":"https://ibb.co/kQhtMsj"
+    },
+    "cursos":[
+        {
+            "intitucion":"Minhub",
+            "titulo":"Full Stack MERN",
+            "descripción":"Formación tecnológica de desarrollo web responsivas utilizando HTML5, CSS3, Javascript, Vue, Bootstrap, el Stack de MERN (MongoDB, Express, React y Node.js)",
+            "img":"https://ibb.co/9cD30x3"
+        },
+        {   "intitucion":"Argentina Programa",
+            "titulo":"Full Stack Jr",
+            "descripción":"Formación tecnológica de desarrollo web, utilizando HTML, CSS, Angular, POO, Java, Spring Boot, DevOps y Ciberseguridad.",
+            "img":"https://ibb.co/WyzwqSg"
+        },
+        {
+            "intitucion":"Oracle Next Educatión",
+            "titulo":"Developer Full Stack",
+            "descripción":"Formación tecnológica en HTML, CSS, Javascript, Java, POO, Java.Lang.",
+            "img":"https://ibb.co/cxhDh7g"
+        }
+    ],
+    "softs":[
+        {
+            "titulo":"Aprender a Aprender"
+        },
+        {
+            "titulo":"Trabajo en Equipo"
+        },
+        {
+            "titulo":"Comunicación Asertiva"
+        },
+        {
+            "titulo":"Adaptación y Fexibilidad"
+        },
+        {
+            "titulo":"Gestión de Tiempo"
+        },
+        {
+            "titulo":""
+        }
+    ],
+    "hard":[
+        {
+            "titulo":"HTML",
+            "img":"https://ibb.co/Gt98sXB"
+        },
+        {
+            "titulo":"CSS",
+            "img":"https://ibb.co/MD1wkZX"
+        },
+        {
+            "titulo":"JavaScript",
+            "img":"https://ibb.co/2jX467p"
+        },
+        {
+            "titulo":"Bootstrap",
+            "img":"https://ibb.co/tB0RGvH"
+        },
+        {
+            "titulo":"React",
+            "img":""
+        },
+        {
+            "titulo":"Angular",
+            "img":""
+        }
+
+    ],
+    "proyectos":[ 
+        {
+            "titulo":"MyTinerary",
+            "descripción":"",
+            "img":"https://ibb.co/Tq8gw4Q"
+        },
+        {
+            "titulo":"CSS.Estilos",
+            "descripción":"",
+            "img":"https://ibb.co/3pFJwTJ"
+        },
+        {
+            "titulo":"Porfolio",
+            "descripción":"",
+            "img":"https://ibb.co/3BkSgMv"
+        },
+        {
+            "titulo":"Encriptador de Texto",
+            "descripción":"",
+            "img":"https://ibb.co/Pwf3bC7"
+        },
+        {
+            "titulo":"Juego Ahorcado",
+            "descripción":"",
+            "img":"https://ibb.co/PrKCV0j"
+        }
+    ]
+
+}
