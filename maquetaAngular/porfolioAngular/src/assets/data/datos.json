@@ -1,50 +1,53 @@
 {
-    "nombre":"Kaira Abréu",
+    "nombre":"KAIRA",
+    "apellido":"Abréu",
     "titulo":"DESARROLLADOR FULL STACK Jr",
-    "img":"https://ibb.co/kyQVwjs",
-    "información":{
+    "img1":"https://i.ibb.co/SxRDMb4/Foto-Banner.jpg",
+   
+    "informacion":{
         "acerca":"Profesional en Ingeniería Mecánica, motivada por la capacidad de interpretación y la curiosidad por el mundo IT, me inicie en la formación, aprendizaje y adquisición de conocimiento para el desarrollo de aplicaciones Web, con las herramientas básicas de programación. Soy una persona con actitud positiva, disponibilidad inmediata, ganas de aprender y a la vez aportar los conocimientos que poseo. Soy comunicativa, dinámica y con facilidad de adaptación. Me considero con capacidad de liderazgo, organización y de trabajo en equipo, con iniciativa de resolver problemas eficientemente y lograr las metas y objetivos trazados.",
-        "img":"https://ibb.co/ZGkSXbs"
+        "img":"https://i.ibb.co/PFfMjVp/img-About1.jpg"
     },
     "experiencia":[ 
         {
             "titulo":"Atención al Cliente",
-            "descripción":"Atención al Cliente y Proveedores. Cajera. Apertura y Cierre de caja.",
-            "img":"https://ibb.co/xfyHxrm"
+            "descripcion":"Atención al Cliente y Proveedores. Cajera. Apertura y Cierre de caja.",
+            "img":"https://i.ibb.co/8dJc1Qz/5asec-share.jpg"
         },
         {
             "titulo":"Analista de Gestión e Implementación",
-            "descripción":"Establecer estrategias para adecuar el manejo de gas en unidad K8 de Planta Compresora La Ceibita.",
-            "img":"https://ibb.co/VgbJNf4"
+            "descripcion":"Establecer estrategias para adecuar el manejo de gas en unidad K8 de Planta Compresora La Ceibita.",
+            "img":"https://i.ibb.co/R3tYSRw/pdvsa.png"
         },
         {
             "titulo":"Asistente de Proyectos",
-            "descripción":"Apoyo directo en el diseño, planeación, dirección y gestión para la instalación del Separador de Gotas del Gas Tope Combustible.",
-            "img":"https://ibb.co/RbK9vk4"
+            "descripcion":"Apoyo directo en el diseño, planeación, dirección y gestión para la instalación del Separador de Gotas del Gas Tope Combustible.",
+            "img":"https://i.ibb.co/8sw0KL4/venprecar.png"
         }
     ],
-    "educación":{
-        "instituto":"Universidad Experimental Politécnica Antonio Jóse de Sucre Vice-Rectorado de Puerto Ordaz. Estado Bolivar. Venezuela",
-        "titulo":"Ingeniero Mecánico",
-        "img":"https://ibb.co/kQhtMsj"
+    "educacion":{
+        "universidad":"Universidad Experimental Politécnica ANTONIO JÓSE DE SUCRE",
+        "ubicacion":"Vice-Rectorado de Puerto Ordaz. Estado Bolivar. Venezuela",
+        "grado":"Ingeniero Mecánico",
+        "logo":"https://i.ibb.co/vZJSD6p/logounexpo.png"
     },
     "cursos":[
         {
             "intitucion":"Minhub",
             "titulo":"Full Stack MERN",
-            "descripción":"Formación tecnológica de desarrollo web responsivas utilizando HTML5, CSS3, Javascript, Vue, Bootstrap, el Stack de MERN (MongoDB, Express, React y Node.js)",
-            "img":"https://ibb.co/9cD30x3"
+            "descripcion":"Formación tecnológica de desarrollo web responsivas utilizando HTML5, CSS3, Javascript, Vue, Bootstrap, el Stack de MERN (MongoDB, Express, React y Node.js)",
+            "img":"https://i.ibb.co/8NC4wy4/mindhub.png"
         },
         {   "intitucion":"Argentina Programa",
             "titulo":"Full Stack Jr",
-            "descripción":"Formación tecnológica de desarrollo web, utilizando HTML, CSS, Angular, POO, Java, Spring Boot, DevOps y Ciberseguridad.",
-            "img":"https://ibb.co/WyzwqSg"
+            "descripcion":"Formación tecnológica de desarrollo web, utilizando HTML, CSS, Angular, POO, Java, Spring Boot, DevOps y Ciberseguridad.",
+            "img":"https://i.ibb.co/3NFqGtB/logo.png"
         },
         {
             "intitucion":"Oracle Next Educatión",
             "titulo":"Developer Full Stack",
-            "descripción":"Formación tecnológica en HTML, CSS, Javascript, Java, POO, Java.Lang.",
-            "img":"https://ibb.co/cxhDh7g"
+            "descripcion":"Formación tecnológica en HTML, CSS, Javascript, Java, POO, Java.Lang.",
+            "img":"https://i.ibb.co/Lvdnd2k/One-Oracle.jpg"
         }
     ],
     "softs":[
@@ -64,61 +67,53 @@
             "titulo":"Gestión de Tiempo"
         },
         {
-            "titulo":""
+            "titulo":"SCRUM"
         }
     ],
     "hard":[
         {
             "titulo":"HTML",
-            "img":"https://ibb.co/Gt98sXB"
+            "img":"https://i.ibb.co/WP0MDQq/htmlLogo.png"
         },
         {
             "titulo":"CSS",
-            "img":"https://ibb.co/MD1wkZX"
+            "img":"https://i.ibb.co/N6ND2t4/cssLogo.png"
         },
         {
             "titulo":"JavaScript",
-            "img":"https://ibb.co/2jX467p"
+            "img":"https://i.ibb.co/55qH9WJ/jsLogo.png"
         },
         {
             "titulo":"Bootstrap",
-            "img":"https://ibb.co/tB0RGvH"
-        },
-        {
-            "titulo":"React",
-            "img":""
-        },
-        {
-            "titulo":"Angular",
-            "img":""
+            "img":"https://i.ibb.co/R2X8Fsg/bootstrap-Logo.png"
         }
-
+       
     ],
     "proyectos":[ 
         {
             "titulo":"MyTinerary",
-            "descripción":"",
-            "img":"https://ibb.co/Tq8gw4Q"
+            "descripcion":"",
+            "img":"https://i.ibb.co/mFqcR9n/mytinerary.png"
         },
         {
             "titulo":"CSS.Estilos",
             "descripción":"",
-            "img":"https://ibb.co/3pFJwTJ"
+            "img":"https://i.ibb.co/Ycdr6Nr/barbershop.png"
         },
         {
             "titulo":"Porfolio",
-            "descripción":"",
-            "img":"https://ibb.co/3BkSgMv"
+            "descripcion":"",
+            "img":"https://i.ibb.co/NZ7Wcmr/porfolio.png"
         },
         {
             "titulo":"Encriptador de Texto",
             "descripción":"",
-            "img":"https://ibb.co/Pwf3bC7"
+            "img":"https://i.ibb.co/dGz13Kd/encriptador.jpg"
         },
         {
             "titulo":"Juego Ahorcado",
-            "descripción":"",
-            "img":"https://ibb.co/PrKCV0j"
+            "descripcion":"",
+            "img":"https://i.ibb.co/RgfHJdb/ahorcado.jpg"
         }
     ]
 

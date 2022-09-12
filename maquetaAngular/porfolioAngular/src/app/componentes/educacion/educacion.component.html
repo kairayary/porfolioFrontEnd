@@ -1,62 +1,18 @@
-<section class="main-education">
+<section class="main-education" style="padding-top: 2em;"    >
     <div class="info-titulo">
         <h1>Educación</h1>
     </div>
     <div class="education-content">
         <div class="content">
-            <img src="./img/logounexpo.png" width="150" higth="150" class="img-education" alt="Unexpo-Kaira">
+            <img  width="150" higth="150" class="img-education" alt="Unexpo-Kaira"
+            [src]="miEducacion.logo"/>
 
-            <p>Universidad Experimental Politécnica "Antonio Jóse de Sucre" <br>
-                Vice-Rectorado de Puerto Ordaz. Estado Bolivar. Venezuela<br>
-                <i>Titulo:</i> <strong>Ingeniero Mecánico</strong>
+            <p>{{miEducacion.universidad}}<br>
+                {{miEducacion.ubicacion}}<br>
+                <i>Titulo: </i> <strong>{{miEducacion.grado}}</strong>
             </p>
         </div>
-        <div class="courses">
-            <div class="courses-cards">
-                <div class="info-courses">
-                    <h2>Cursos Realizados</h2>
-                </div>
-                <div class="courses-content">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="card-courses card h-100">
-                                <img src="./img/mindhub.png" class="card-img-top" width="270" height="150"
-                                    alt="Mindhub-kaira">
-                                <div class="card-body">
-                                    <h5 class="card-title">Full Stack MERN</h5>
-                                    <p class="card-text">Formación tecnológica de desarrollo web responsivas
-                                        utilizando HTML5, CSS3, Javascript, Vue, Bootstrap,
-                                        el Stack de MERN (MongoDB, Express, React y Node.js).</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-courses card h-100">
-                                <img src="./img/logo.png" class="card-img-top" width="270" height="150"
-                                    alt="yoprogramo-kaira">
-                                <div class="card-body">
-                                    <h5 class="card-title"> Full Stack Jr</h5>
-                                    <p class="card-text">Formación tecnológica de desarrollo web, utilizando
-                                        HTML, CSS, Angular,
-                                        POO, Java, Spring Boot, DevOps y Ciberseguridad.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-courses card h-100">
-                                <img src="./img/One-Oracle.jpg" class="card-img-top" width="270" height="150"
-                                    alt="oracle-kaira">
-                                <div class="card-body">
-                                    <h5 class="card-title">Developer Full Stack</h5>
-                                    <p class="card-text">Formación tecnológica en HTML, CSS, Javascript, Java,
-                                        POO, Java.Lang.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
     </div>
 
 </section>

@@ -10,6 +10,10 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { SoftSkillsComponent } from './componentes/soft-skills/soft-skills.component';
 import { HardSkillsComponent } from './componentes/hard-skills/hard-skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { HttpClientModule} from '@angular/common/http';
+import { CursosComponent } from './componentes/cursos/cursos.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +24,15 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     EducacionComponent,
     SoftSkillsComponent,
     HardSkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    CursosComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

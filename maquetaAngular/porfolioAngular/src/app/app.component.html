@@ -1,58 +1,13 @@
-<header>
-    <nav class="navbar navbar-expand-lg p-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" class="rounded float-start" width="180px"
-                    alt="..."></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex">
-                <div class="collapse navbar-collapse " id="navbarScroll">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item fa-3x">
-                            <a class="nav-link" href="#"><i class="fa-brands fa-linkedin fa-flip"
-                                    style="--fa-animation-duration: 5s;"></i></a>
-                        </li>
-                        <li class="nav-item fa-3x">
-                            <a class="nav-link active" aria-current="page" href="#"><i
-                                    class="fa-brands fa-square-github fa-flip"
-                                    style="--fa-animation-duration: 5s;"></i></a>
-                        </li>
-                        <li class="nav-item fa-3x">
-                            <a class="nav-link" href="#"><i class="fa-brands fa-square-twitter fa-flip"
-                                    style="--fa-animation-duration: 5s;"></i></a>
-                        </li>
-                    </ul>
-                    <button class="btn btn-outline-dark btn-md" type="submit"><strong>Iniciar Sessión</strong>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    </nav>
-</header>
 <main>
+    <app-navbar></app-navbar>
     <app-banner></app-banner>
-
     <app-acerca-de></app-acerca-de>
     <app-experiencia></app-experiencia>
-
     <app-educacion></app-educacion>
+    <app-cursos></app-cursos>
     <app-soft-skills></app-soft-skills>
     <app-hard-skills></app-hard-skills>
     <app-proyectos></app-proyectos>
+   
 </main>
-<footer class="main-footer">
-    <div class="footer-contet">
-        <div>
-            <h3>KAIRA ABREU</h3>
-            <p><strong>Full Stack Jr</strong> </p>
-        </div>
-        <div class="iconos">
-            <a href="#"><i class="icon fa-brands fa-2x fa-github"></i></a>
-            <a href="#"><i class="icon fa-brands fa-2x fa-linkedin"></i></a>
-            <a href="#"><i class="icon fa-solid fa-2x fa-envelope"></i></a>
-        </div>
-    </div>
-</footer>
+<app-footer></app-footer>

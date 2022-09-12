@@ -2,16 +2,17 @@
     <div class="info-titulo">
         <h1>Hard Skills</h1>
     </div>
-    <div class="hard-content">
+    <div class="hard-content" *ngFor="let hard of miHards">
 
-        <img src="./img/htmlLogo.png" width="75" height="75">
+        <img  width="75" height="75"
+        [src]="hard.img"/>
         <div class="progress">
             <div class="barra progress-bar progress-bar-striped" role="progressbar"
                 aria-label="Default striped example" style="width: 88%" aria-valuenow="10" aria-valuemin="0"
-                aria-valuemax="100"></div>
+                aria-valuemax="100">{{hard.titulo}}</div>
         </div>
 
-        <img src="./img/cssLogo.png" width="70" height="80">
+        <!-- <img src="./img/cssLogo.png" width="70" height="80">
         <div class="progress">
             <div class="barra progress-bar progress-bar-striped" role="progressbar"
                 aria-label="Default striped example" style="width: 79%" aria-valuenow="10" aria-valuemin="0"
@@ -34,7 +35,7 @@
             <div class="barra progress-bar progress-bar-striped bg-warning" role="progressbar"
                 aria-label="Default striped example" style="width: 40%" aria-valuenow="10" aria-valuemin="0"
                 aria-valuemax="100"></div>
-        </div>
+        </div> -->
     </div>
 
 </section>

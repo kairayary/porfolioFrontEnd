@@ -10,11 +10,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar, .main-about, .main-education, .main-hard-skills, .main-footer {
+.navbar, .main-about, .main-education,.main-courses, .main-hard-skills, .main-footer {
   background: #c99a8e;
 }
 
-.main-banner, .main-about, .main-experience, .main-education, .main-soft-skills, .main-hard-skills, .main-projects {
+.main-banner, .main-about, .main-experience, .main-courses, .main-soft-skills, .main-hard-skills, .main-projects {
   text-align: center;
   min-height: calc(81vh - 97px);
   padding: 2em;
@@ -105,7 +105,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .info-titulo h1 {
@@ -184,5 +185,10 @@ body {
   text-align: center;
   min-height: calc(40vh - 77px);
   padding: 2em;
+}
+.iconos{
+  display: flex;
+  justify-content: center;
+ 
 }
 

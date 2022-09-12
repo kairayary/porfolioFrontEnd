@@ -1,11 +1,13 @@
 <section class="main-banner">
     <div class="info-content">
         <div class="content-banner">
-            <h1>Soy <span>KAIRA</span> Abréu</h1>
-            <p> <strong> DESARROLLADOR FULL STACK Jr</strong> </p>
+            <h1>Soy <span>{{miPorfolio.nombre}}</span> {{miPorfolio.apellido}}</h1>
+            <p> <strong> {{miPorfolio.titulo}}</strong> </p>
             <a download href="#"><button class="download-cv">Download CV</button></a>
         </div>
-        <img src="./img/Foto-Banner.jpeg" class="info-img" alt="Banner-Kaira">
+        <img
+        class="info-img" alt="Banner-Kaira"
+         [src]="miPorfolio.img1" />
 
     </div>
 

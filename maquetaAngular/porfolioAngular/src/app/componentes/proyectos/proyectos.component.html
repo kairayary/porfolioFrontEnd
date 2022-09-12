@@ -4,34 +4,10 @@
     </div>
     <div class="projects-content">
         <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
+            <div class="col"  *ngFor="let proyectos of miProyectos">
                 <div class="card-projects card h-100">
-                    <img src="./img/mytinerary.png" class="card-img-top" width="200" height="200"
-                        alt="mytinerary-Kaira">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card-projects  card h-100">
-                    <img src="./img/barbershop.png" class="card-img-top" width="200" height="200"
-                        alt="CssEstilos-Kaira">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card-projects  card h-100">
-                    <img src="./img/porfolio.png" class="card-img-top" width="200" height="200"
-                        alt="CssEstilos-Kaira">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card-projects  card h-100">
-                    <img src="./img/encriptador.jpg" class="card-img-top" width="200" height="200"
-                        alt="encriptadorTexto-Kaira">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card-projects  card h-100">
-                    <img src="./img/juegoAhorcado.jpeg" class="card-img-top" width="200" height="200"
-                        alt="encriptadorTexto-Kaira">
+                    <img  class="card-img-top" width="200" height="200" alt="mytinerary-Kaira"
+                    [src]="proyectos.img" />
                 </div>
             </div>
         </div>

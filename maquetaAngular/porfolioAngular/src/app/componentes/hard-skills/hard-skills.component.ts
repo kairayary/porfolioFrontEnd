@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PorfolioService } from 'src/app/servicios/porfolio.service';
+
 
 @Component({
   selector: 'app-hard-skills',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HardSkillsComponent implements OnInit {
 
-  constructor() { }
+  miHards: any;
+  constructor(private datosPorfolio: PorfolioService) { }
 
   ngOnInit(): void {
-  }
+    this.datosPorfolio.obtenerDatos().subscribe(datos => {
+      this.miHards = datos.hard;
+    })
 
+  }
 }
