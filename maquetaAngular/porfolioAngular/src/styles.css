@@ -9,12 +9,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
-.navbar, .main-about, .main-education,.main-courses, .main-hard-skills, .main-footer {
-  background: #c99a8e;
+.main-about,.main-education,.main-projects{
+  background: #F8CE18;
+}
+.navbar,.main-soft-skills, .main-footer {
+  background: #CF016D;
 }
 
-.main-banner, .main-about, .main-experience, .main-courses, .main-soft-skills, .main-hard-skills, .main-projects {
+.main-banner, .main-about .main-experience,.main-education, .main-projects, .main-soft-skills, .main-hard-skills {
+  
   text-align: center;
   min-height: calc(81vh - 97px);
   padding: 2em;
@@ -33,35 +36,38 @@ body {
 }
 
 .info-content span {
-  color: #dda00d;
+  color: #F6921F;
 
 }
 
 .download-cv {
   padding: 10px 20px;
-  background-color: #737a48;
+  background-color: #14B6BB;
   border: none;
   border-radius: 10px;
   margin-top: 10px;
   cursor: pointer;
-  -webkit-box-shadow: 1px 3px 11px -5px rg#737a48;
-  -moz-box-shadow: 1px 3px 11px -5px #737a48;
-  box-shadow: 1px 3px 11px -5px #737a48;
+  -webkit-box-shadow: 1px 3px 11px -5px rg#CF016D;
+  -moz-box-shadow: 1px 3px 11px -5px #CF016D;
+  box-shadow: 1px 3px 11px -5px #c99a8e;
 }
 
 .download-cv:hover {
   background-color: azure;
   box-shadow: none;
 }
+.info-img {
 
-.info-img, .img-about {
-  
-  box-shadow: 15px 15px 40px #c99a8e;
-  border: 6px solid #737a48;
+  border: 2px solid #F6921F;
   width: 28%;
   border-radius: 10px;
 }
-
+.img-about {
+  
+  border: 2px solid #CF016D;
+  width: 28%;
+  border-radius: 10px;
+}
 
 .about-info{
   display: flex;
@@ -73,26 +79,19 @@ body {
 
 }
 
-.about-info h1 {
-  font-size: 2.5em;
-  color: #737a48;
-  text-align: center;
-  font-weight: 600;
-  -webkit-text-stroke: 0.5px #737a48;
-  letter-spacing: 0;
-  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
-
-
+.about-bottom{
+  display: flex;
+  justify-content: center;
 }
-
 .aboutb {
-  background-color: #737a48;
+  background-color: #14B6BB;
   color: white;
 }
 
 .paragraph-about p {
   margin-left: 3em;
-  color: white;
+  font-size: 1.2em;
+  color: black;
   text-align: justify;
   margin-right: 2em;
 }
@@ -105,27 +104,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin-top: 2%;
 }
 
 .info-titulo h1 {
   text-align: center;
-  /* margin-top: 1em; */
+  margin-top: 1em;
   font-size: 2.5em;
-  color: #737a48;
+  color: #14B6BB;
   font-weight: 600;
   letter-spacing: 0;
-  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
+  text-shadow: -2px -2px 2px white, 2px -2px 2px #F6921F;
 }
 
 .card-experience, .card-projects {
-  border: 3px solid #737a48;
-  box-shadow: 10px 10px 25px #c99a8e
+  border: 3px solid #CF016D;
+  box-shadow: 10px 10px 25px #c99a8e;
+  border-radius: 10px;
+  width: 100%;
 }
 
 .card-title {
-  color: #dda00d;
+  color: #F6921F;
   font-weight: bold;
 
 }
@@ -150,7 +150,7 @@ body {
   margin-left: 10%;
   padding-top: 4%;
   margin-bottom: 4%;
-  text-shadow: -2px -2px 2px white, 2px -2px 2px #dda00d;
+  text-shadow: -2px -2px 2px white, 2px -2px 2px #F6921F;
 }
 
 .courses-cards{
@@ -161,8 +161,9 @@ body {
   justify-content: center;
 }
 .card-courses {
-  border: 3px solid #dda00d;
-  box-shadow: 8px 8px 15px #737a48;
+  border-radius: 10px;
+  border: 3px solid #CF016D;
+  box-shadow: 8px 8px 15px #c99a8e;
 }
 .soft-content p{
   
@@ -176,19 +177,17 @@ body {
 }
 
 .barra{
-  background-color: #dda00d;
+  background-color: #F6921F;
 }
 
 .main-footer{
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-weight: bold;
   min-height: calc(40vh - 77px);
   padding: 2em;
+  color:#F6921F;
 }
-.iconos{
-  display: flex;
-  justify-content: center;
- 
-}
+
 
