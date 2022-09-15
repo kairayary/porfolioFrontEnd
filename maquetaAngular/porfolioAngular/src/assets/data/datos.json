@@ -72,19 +72,19 @@
     ],
     "hard":[
         {
-            "titulo":"HTML",
+            
             "img":"https://i.ibb.co/WP0MDQq/htmlLogo.png"
         },
         {
-            "titulo":"CSS",
+          
             "img":"https://i.ibb.co/N6ND2t4/cssLogo.png"
         },
         {
-            "titulo":"JavaScript",
+           
             "img":"https://i.ibb.co/55qH9WJ/jsLogo.png"
         },
         {
-            "titulo":"Bootstrap",
+           
             "img":"https://i.ibb.co/R2X8Fsg/bootstrap-Logo.png"
         }
        
