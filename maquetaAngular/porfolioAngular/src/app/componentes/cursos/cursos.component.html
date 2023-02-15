@@ -1,14 +1,14 @@
 <section class="main-courses">
     <div class="courses">
         <div class="courses-cards">
-            <div class="info-courses">
-                <h2>Cursos Realizados</h2>
-            </div>
+           
+                <h2 class="info-courses">Cursos Realizados</h2>
+           
             <div class="courses-content" style="margin-bottom: 2em;">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col" *ngFor=" let cursos of miCurso">
                         <div class="card-courses card h-100">
-                            <img [src]="cursos.img" class="card-img-top" width="270" height="150"
+                            <img [src]="cursos.img" class="card-img-top" width="220" height="150"
                                 alt="Mindhub-kaira">
                             <div class="card-body">
                                 <h5 class="card-title">{{cursos.titulo}}</h5>
